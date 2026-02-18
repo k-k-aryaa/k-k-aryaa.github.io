@@ -1,20 +1,61 @@
-<<<<<<< HEAD
-# React + Vite
+# K K Aryaa Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing projects, skills, and experience. Built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Optimized for all devices.
+- **Components**:
+  - Hero Section
+  - About Me
+  - Experience Timeline
+  - Projects Showcase
+  - Skills Visualization
+  - Contact Information
+- **Animations**: Smooth transitions using Framer Motion.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Router](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# k-k-aryaa.github.io
->>>>>>> a80281f51012642f31d69808806e457557e6d41f
+1.  **Clone the repository**
+
+    ```bash
+    git clone https://github.com/k-k-aryaa/k-k-aryaa.github.io.git
+    cd k-k-aryaa.github.io
+    ```
+
+2.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+## Scripts
+
+- `npm run dev`: Start development server
+- `npm run build`: Build for production
+- `npm run preview`: Preview production build
+- `npm run deploy`: Deploy to GitHub Pages
+
+## Deployment
+
+This project is configured to deploy to GitHub Pages using the `gh-pages` package.
+
+To deploy manually:
+
+```bash
+npm run deploy
+```
