@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaEnvelope, FaMapMarkerAlt, FaLinkedin, FaPhone, FaInstagram } from 'react-icons/fa'
+import { FaEnvelope, FaMapMarkerAlt, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 const Contact = () => {
     return (
@@ -36,12 +36,7 @@ const Contact = () => {
                                 </div>
                                 aryaakk1708@gmail.com
                             </a>
-                            <a href="tel:+919597924809" style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', fontSize: '1.2rem', padding: '1rem', borderRadius: '1rem', background: 'var(--bg-primary)', width: '100%', maxWidth: '400px', justifyContent: 'flex-start', border: '1px solid var(--border-color)', boxShadow: '0 4px 6px -1px var(--shadow-color)' }}>
-                                <div style={{ background: 'var(--bg-secondary)', padding: '1rem', borderRadius: '50%', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <FaPhone size={20} />
-                                </div>
-                                +91 9597924809
-                            </a>
+
                             <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', fontSize: '1.2rem', padding: '1rem', borderRadius: '1rem', background: 'var(--bg-primary)', width: '100%', maxWidth: '400px', justifyContent: 'flex-start', border: '1px solid var(--border-color)', boxShadow: '0 4px 6px -1px var(--shadow-color)' }}>
                                 <div style={{ background: 'var(--bg-secondary)', padding: '1rem', borderRadius: '50%', color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                     <FaMapMarkerAlt size={20} />
